@@ -1,0 +1,25 @@
+
+/* Import style constants */
+@import './constants.less';
+body {
+  font-family: @font-family;
+}
+
+/* Import Fontawsome css */
+@import (css) url('https://use.fontawesome.com/releases/v5.4.1/css/all.css');  
+
+/* Import style for components */
+@import '../Components/SectionWrapper.less';
+@import '../Components/Rectangle.less';
+@import '../Components/Button.less';
+
+/* Import style for modal windows */
+@import '../Modals/Backdrop.less';
+@import '../Modals/TemplateModal.less';
+
+/* Import style for pages */
+@import '../Screens/Error404Screen.less';
+@import '../Screens/Main.less';
+
+/* Import stylesLib - standard styles */
+@import './stylesStd.less';
